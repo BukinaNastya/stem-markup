@@ -1,0 +1,253 @@
+footer {
+    color: #fff;
+    background: #000B40;
+    padding-top: 70px;
+    .payments {
+        display: flex;
+        justify-content: space-between;
+        @media screen and (max-width: 550px) {
+            flex-direction: column;
+        }
+    }
+	.container {
+        justify-content: space-between;
+        @media screen and (max-width: 1024px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+	}
+	.title {
+		font-family: 'Philosopher';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 20px;
+		color: #FFFFFF;
+        margin-bottom: 12px;
+        @media screen and (max-width: 550px) {
+            text-align: center;
+        }
+	}
+	.logo-footer {
+		margin-bottom: 32px;
+		// margin-left: 45px;
+	}
+	.adress {
+		margin-bottom: 30px;
+		// margin-left: 25px;
+		display: flex;
+		align-items: center;
+		p {
+			font-size: 14px;
+			line-height: 22px;
+			letter-spacing: 0.02em;
+			color: #EDF1F6;
+		}
+		.icon {
+			margin-right: 12px;
+		}
+	}
+	.contacts {
+		margin-bottom: 30px;
+		// margin-left: 25px;
+		display: flex;
+		align-items: center;
+		p {
+			font-size: 14px;
+			line-height: 22px;
+			letter-spacing: 0.02em;
+			color: #EDF1F6;
+		}
+		.icon {
+			margin-right: 12px;
+		}
+	}
+	.col-center {
+        @media screen and (max-width: 1024px) {
+            // width: 100%;
+            order: 2;
+            float: 0 0 20%;
+        }
+		a {
+			font-family: 'Poppins', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 21px;
+			letter-spacing: 0.02em;
+			color: #EDF1F6;
+			text-decoration: none;
+			margin-bottom: 20px;
+			display: block;
+		}
+		.title {
+            margin-bottom: 21px;
+            text-align: left;
+		}
+	}
+	.col-right {
+        flex: 0 0 40%;
+        @media screen and (max-width: 1024px) {
+            flex: 0 0 100%;
+            order: 3;
+            max-width: 495px;
+            margin: 0 auto;
+        }
+		.subscribe {
+			position: relative;
+			margin-bottom: 55px;
+			input {
+				background: #FFFFFF;
+				border: 1px solid #E0E7F1;
+				border-radius: 32px;
+				padding: 11px 28px;
+				font-family: 'Poppins', sans-serif;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+                line-height: 24px;
+                max-width: 495px;
+                width: 100%;
+                display: inline;
+                @media screen and (max-width: 550px) {
+                    max-width: 342px;
+                    width: 100%;
+                    display: block;
+                    margin: 0 auto;
+                }
+				&::placeholder {
+					font-family: 'Poppins', sans-serif;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 16px;
+					line-height: 24px;
+					color: #8296A6;
+				}
+			}
+			button {
+				position: absolute;
+                right: 0;
+                top: 0;
+                @media screen and (max-width: 550px) {
+                    position: inherit;
+                }
+			}
+		}
+		button {
+			background: #0055A7;
+			border-radius: 32px;
+			font-family: 'Poppins', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 24px;
+			color: #fff;
+			border: none;
+			padding: 13px 0;
+			width: 220px;
+			text-align: center;
+            cursor: pointer;
+            @media screen and (max-width: 550px) {
+                position: inherit;
+                display: block;
+                max-width: 342px;
+                width: 100%;
+                display: block;
+                margin: 10px auto 0; 
+            }
+		}
+		.cards {
+            display: flex;
+            align-items: center;
+            img:first-child {
+                margin-right: 15px;
+            }
+            @media screen and (max-width: 550px) {
+                justify-content: center;
+            }
+		}
+    }
+    
+    .col-left {
+        @media screen and (max-width: 1024px) {
+            order: 1;
+            flex: 0 0 80%;
+        }
+        @media screen and (max-width: 550px) {
+            flex: 0 0 70%;
+        }
+    }
+}
+.bottom-footer {
+    border-top: 1px solid #0055A7;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    margin-top: 50px;
+    a {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        text-decoration-line: underline;
+        color: #007DC0;
+        &.politic{
+            @media screen and (max-width: 1024px) {
+                width: 100%;
+                text-align: right;
+            }
+        }
+    }
+    .lang-footer {
+        position: relative;
+        .lang-footer-button {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: 0.02em;
+            color: #007DC0;
+            img {
+                margin-left: 5px;
+                -webkit-transition: all .3s;
+                -moz-transition: all .3s;
+                -o-transition: all .3s;
+                transition: all .3s;
+            }
+            &.active{
+                img {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        ul {
+            display: none;
+            position: absolute;
+            bottom: 35px;
+            left: -2px;
+            li {
+                display: block;
+                a {
+                    display: block;
+                    padding: 10px;
+                    text-decoration: none;
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 21px;
+                    letter-spacing: 0.02em;
+                    color: #fff;
+                }
+            }
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
