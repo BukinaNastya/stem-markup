@@ -1517,9 +1517,9 @@ main {
     height: 460px;
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
     @media screen and (max-width: 550px) {
         height: 200px;
-        background-size: cover;
     }
     h2 {
         position: absolute;

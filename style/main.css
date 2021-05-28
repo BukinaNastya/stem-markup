@@ -2504,11 +2504,11 @@ main {
   height: 460px;
   background-repeat: no-repeat;
   background-position: right;
+  background-size: cover;
 }
 @media screen and (max-width: 550px) {
   .page-header {
     height: 200px;
-    background-size: cover;
   }
 }
 .page-header h2 {
