@@ -1,3 +1,4 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\000031}}
 header {
   width: 100%;
   height: 105px;
@@ -6,269 +7,231 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99;
-}
-@media screen and (max-width: 1024px) {
-  header {
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    background: rgba(241, 242, 244, 0.5);
-    height: 80px;
-    padding: 15px 0;
-  }
-}
-@media screen and (max-width: 550px) {
-  header {
-    height: 60px;
-    padding: 9px 0 11px;
-  }
-}
-header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-@media screen and (max-width: 1024px) {
+  z-index: 99; }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\000031}}
+    header {
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      background: rgba(241, 242, 244, 0.5);
+      height: 80px;
+      padding: 15px 0; } }
+  @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\000031}}
+    header {
+      height: 60px;
+      padding: 9px 0 11px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000321}}
   header .container {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-}
-header .container .logo {
-  max-width: 150px;
-}
-@media screen and (max-width: 1024px) {
-  header .container .logo {
-    max-width: 89px;
-  }
-}
-@media screen and (max-width: 550px) {
-  header .container .logo {
-    max-width: 71px;
-  }
-}
-header .container .logo img {
-  width: 100%;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000321}}
+      header .container {
+        flex-direction: row; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000328}}
+    header .container .logo {
+      max-width: 150px; }
+      @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000328}}
+        header .container .logo {
+          max-width: 89px; } }
+      @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000328}}
+        header .container .logo {
+          max-width: 71px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000336}}
+      header .container .logo img {
+        width: 100%; }
 
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000342}}
   .desctop-menu {
-    display: none;
-  }
-}
+    display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000346}}
 .desctop-menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-}
-.desctop-menu ul li {
-  margin-right: 40px;
-}
-.desctop-menu ul li:last-child {
-  margin-right: 0;
-}
-.desctop-menu ul li a {
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #4C5277;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.desctop-menu ul li a:hover {
-  color: #263186;
-}
-.desctop-menu ul li a.services-menu-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.desctop-menu ul li a.services-menu-link img {
-  margin-right: 5px;
-  display: block;
-}
+  align-items: center;
+  justify-content: start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000350}}
+  .desctop-menu ul li {
+    margin-right: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000352}}
+    .desctop-menu ul li:last-child {
+      margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000355}}
+    .desctop-menu ul li a {
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      color: #4C5277;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s;
+      display: flex;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000370}}
+      .desctop-menu ul li a:hover {
+        color: #263186; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000373}}
+      .desctop-menu ul li a.services-menu-link {
+        display: flex;
+        align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000376}}
+        .desctop-menu ul li a.services-menu-link img {
+          margin-right: 5px;
+          display: block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000385}}
 .block-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-}
-.block-header .search {
-  margin-right: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-@media screen and (max-width: 1024px) {
+  align-items: center;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000389}}
   .block-header .search {
-    margin: 0;
-  }
-}
-.block-header .search .button-search {
-  background: none;
-  border: none;
-  padding: 10px;
-}
-.block-header .search input {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  opacity: 0;
-  max-width: 0;
-  overflow: hidden;
-  -webkit-transition: opacity .3s linear, max-width .2s linear;
-  transition: opacity .3s linear, max-width .2s linear;
-  will-change: opacity, max-width;
-}
-.block-header .search input.active {
-  padding: 10px;
-  opacity: 1;
-  max-width: 300px;
-  -webkit-transition: all .3s linear;
-  transition: all .3s linear;
-  will-change: opacity, max-width;
-}
-@media screen and (max-width: 1024px) {
-  .block-header .langs {
+    margin-right: 25px;
+    display: flex;
+    align-items: center; }
+    @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000389}}
+      .block-header .search {
+        margin: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\0000396}}
+    .block-header .search .button-search {
+      background: none;
+      border: none;
+      padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003101}}
+    .block-header .search input {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      opacity: 0;
+      max-width: 0;
+      overflow: hidden;
+      -webkit-transition: opacity .3s linear, max-width .2s linear;
+      -moz-transition: opacity .3s linear, max-width .2s linear;
+      -o-transition: opacity .3s linear, max-width .2s linear;
+      transition: opacity .3s linear, max-width .2s linear;
+      will-change: opacity, max-width; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003113}}
+      .block-header .search input.active {
+        padding: 10px;
+        opacity: 1;
+        max-width: 300px;
+        -webkit-transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
+        will-change: opacity, max-width; }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003125}}
+    .block-header .langs {
+      display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003129}}
+  .block-header .langs span {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000B40;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003137}}
+    .block-header .langs span img {
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003144}}
+    .block-header .langs span.active img {
+      transform: rotate(180deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003149}}
+  .block-header .langs ul {
     display: none;
-  }
-}
-.block-header .langs span {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000B40;
-  cursor: pointer;
-}
-.block-header .langs span img {
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-.block-header .langs span.active img {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-.block-header .langs ul {
-  display: none;
-  position: absolute;
-  top: 40px;
-  right: 2px;
-}
-.block-header .langs ul li {
-  display: block;
-}
-.block-header .langs ul li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #000B40;
-}
-.block-header .langs ul.active {
-  display: block;
-}
+    position: absolute;
+    top: 40px;
+    right: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003154}}
+    .block-header .langs ul li {
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003156}}
+      .block-header .langs ul li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000B40; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003168}}
+    .block-header .langs ul.active {
+      display: block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003174}}
 .burger {
   display: none;
   position: relative;
   width: 24px;
   height: 24px;
-  cursor: pointer;
-}
-@media screen and (max-width: 1024px) {
-  .burger {
-    display: block;
-  }
-}
-.burger span {
-  position: absolute;
-  left: 0;
-  height: 1px;
-  background: #010623;
-}
-.burger span:first-child {
-  width: 24px;
-  top: 2px;
-}
-.burger span:nth-child(2) {
-  width: 17px;
-  top: 8px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-.burger span:nth-child(2)::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  width: 0;
-  height: 1px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  -webkit-transition: all .3s;
-  transition: all .3s;
-  background: #010623;
-}
-.burger span:nth-child(3) {
-  width: 11px;
-  top: 13px;
-}
-.burger.active span:first-child {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  display: none;
-}
-.burger.active span:nth-child(3) {
-  display: none;
-}
-.burger.active span:nth-child(2) {
-  width: 24px;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
-.burger.active span:nth-child(2)::before {
-  width: 24px;
-}
+  cursor: pointer; }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003174}}
+    .burger {
+      display: block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003183}}
+  .burger span {
+    position: absolute;
+    left: 0;
+    height: 1px;
+    background: #010623; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003188}}
+    .burger span:first-child {
+      width: 24px;
+      top: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003192}}
+    .burger span:nth-child(2) {
+      width: 17px;
+      top: 8px;
+      transition: all .3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003196}}
+      .burger span:nth-child(2)::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 0;
+        height: 1px;
+        transform: rotate(-90deg);
+        transition: all .3s;
+        background: #010623; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003207}}
+    .burger span:nth-child(3) {
+      width: 11px;
+      top: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003214}}
+  .burger.active span:first-child {
+    transform: rotate(45deg);
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003218}}
+  .burger.active span:nth-child(3) {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003221}}
+  .burger.active span:nth-child(2) {
+    width: 24px;
+    transform: rotate(-45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003224}}
+    .burger.active span:nth-child(2)::before {
+      width: 24px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003231}}
 .mobile-menu {
   display: none;
   background: #fff;
@@ -276,66 +239,57 @@ header .container .logo img {
   top: 105px;
   left: 0;
   width: 100%;
-  height: 100vh;
-}
-@media screen and (max-width: 1024px) {
-  .mobile-menu {
-    top: 80px;
-  }
-  .mobile-menu.active {
+  height: 100vh; }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003231}}
+    .mobile-menu {
+      top: 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003241}}
+      .mobile-menu.active {
+        display: block; } }
+  @media screen and (max-width: 550px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003231}}
+    .mobile-menu {
+      top: 60px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003249}}
+  .mobile-menu ul li {
+    width: 100%;
+    margin: 0 auto;
     display: block;
-  }
-}
-@media screen and (max-width: 550px) {
-  .mobile-menu {
-    top: 60px;
-  }
-}
-.mobile-menu ul li {
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-.mobile-menu ul li a {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #4C5277;
-  text-decoration: none;
-  padding: 20px 0;
-  display: block;
-  text-align: center;
-}
-.mobile-menu ul li a.services-menu-mobile {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  cursor: pointer;
-}
-.mobile-menu ul li a.services-menu-mobile.active {
-  background: rgba(0, 85, 167, 0.1);
-}
-.mobile-menu ul li a.services-menu-mobile span {
-  display: block;
-  margin-right: 13px;
-}
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003254}}
+    .mobile-menu ul li a {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      color: #4C5277;
+      text-decoration: none;
+      padding: 20px 0;
+      display: block;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003266}}
+      .mobile-menu ul li a.services-menu-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003271}}
+        .mobile-menu ul li a.services-menu-mobile.active {
+          background: rgba(0, 85, 167, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003274}}
+        .mobile-menu ul li a.services-menu-mobile span {
+          display: block;
+          margin-right: 13px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003283}}
 .second-menu {
   display: none;
-  background: rgba(0, 85, 167, 0.1);
-}
-.second-menu.active {
-  display: block;
-}
+  background: rgba(0, 85, 167, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/admin\/Desktop\/111\/stem-murkup\/style\/header\.scss}line{font-family:\00003286}}
+  .second-menu.active {
+    display: block; }
 
 /*# sourceMappingURL=header.css.map */
